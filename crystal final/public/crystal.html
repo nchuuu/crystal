@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+    <head>
+
+<style>
+
+</style>
+
+    </head>
+
+
+
+    <body>
+        <div id="myData"></div>
+        <script>
+            fetch('crystal.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+            function appendData(data){
+                 var mainContainer = document.getElementById("myData");
+                for (var i = 0; i < data.length; i++) {
+                 // append each crystal to our page
+                var div = document.createElement("div");
+                div.innerHTML =  data[i].name + '   ' + data[i].properties;
+                mainContainer.appendChild(div);
+                }  
+            }
+         
+        </script>
+
+
+    </body>
+
+</html>
