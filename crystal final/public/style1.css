@@ -1,0 +1,341 @@
+html{
+    scroll-behavior: smooth;
+}
+  
+body{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    cursor: crosshair;
+}
+
+section{
+    height: 100vh;
+    width: 100vh;
+    scroll-snap-align: start;
+}
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 600vh;
+     
+    
+  }
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.question {
+    font-size: 40px;
+    text-align: center;
+}
+    
+.buttons{
+    align-content: center;
+
+}
+  
+
+
+.one {
+    z-index: 1;
+    background-image: url("c.slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+}
+
+
+.two {
+    z-index: 1;
+    background-image: url("c.slide2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.three {
+    z-index: 1;
+    background-image: url("c.slide3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    background-position: bottom;
+
+}
+
+.four {
+    z-index: 1;
+    background-image: url('c.slide4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.five {
+    z-index: 1;
+    background-image: url("c.slide5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.six {
+    z-index: 1;
+    background-image: url("c.slide6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quizhome {
+    z-index: 4;
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    font-size: 25px;
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+}
+.allcrystals{
+    z-index: 4;
+    position: fixed;
+    top: 2%;
+    left: 80%;
+    color: #000000;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+
+}
+.popup{
+    text-decoration: none;
+    color: #000000;
+
+}
+.popup:link{
+    color: black;
+    text-decoration: none;
+    
+}
+.popup:hover {
+    background: #edb8c5;
+    
+}
+.popup:visited{
+    color: black;
+  background-color: transparent;
+  text-decoration: none;
+    
+}
+
+.title1{
+    z-index: 4;
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    font-size: 25px;
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    width: 35%;
+    letter-spacing: 1px;
+    color: #727272;
+
+}
+.quiztitle{
+    z-index: 4;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+    font-size: 45px;
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    width: 35%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+}
+
+
+.q {
+    z-index: 3;
+}
+
+#background1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: #a9a9a9c1;
+    z-index: 5;
+
+}
+#discover {
+    z-index: 6;
+    position: fixed;
+    top: 3%;
+    right: 10%;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+
+.question {
+    z-index: 4;
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: left;
+    position: absolute;
+    
+}
+
+.radio {
+    width: 50%;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px; 
+    position: relative;
+
+}
+
+.q1{
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: left;
+    left: 52%;
+    width: 45%;
+    
+}
+.q2{
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 90%;
+    align-content: center;
+    left: 5%;
+   
+}
+.q3{
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: left;
+    left: 5%;
+    width: 45%;
+}
+.q4{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: left;
+    left: 52%;
+    width: 45%;
+}
+.q5{
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 17%;
+    margin-bottom: 5%;
+    text-align: left;
+    left: 5%;
+    width: 45%;
+
+}
+
+.button1a{
+    width: 45%;
+    left: 52%;
+    font-display: inline;
+    top: 450px;
+    
+}
+.button2a{
+    width: 45%;
+    left: 52%;
+    top: 470px;
+    font-display: inline;
+   
+}
+.button1b{
+    width: 45%;
+    margin-left:37%;
+    align-content: center;
+    top: 300px;
+    
+}
+.button2b{
+    width: 45%;
+    margin-left:37%;
+    align-content: center;
+    top: 310px;
+}
+.button1c{
+    color: #ffffff;
+    width: 45%;
+    left: 5%;
+    top: 450px;
+    font-display: inline;
+   
+}
+.button2c{
+    color: #ffffff;
+    width: 45%;
+    left: 5%;
+    top: 470px;
+    font-display: inline;
+   
+}
+.button1d{
+    width: 45%;
+    left: 52%;
+    top: 450px;
+    font-display: inline;
+}
+.button2d{
+    width: 45%;
+    left: 52%;
+    top: 470px;
+    font-display: inline;
+}
+.button1e{
+    width: 45%;
+    left: 5%;
+    top: 400px;
+    font-display: inline;
+
+}
+.button2e{
+    width: 45%;
+    left: 5%;
+    top: 420px;
+    font-display: inline;
+}
+
+#submitbutton{
+    left: 5%;
+    top: 440px;
+    font-display: inline;
+    position: relative;
+}
+
+

@@ -1,0 +1,273 @@
+{
+ 
+    "description": "Crystal and Stone Metaphysical: Properties",
+    "reference": "https://bestcrystals.com/pages/metaphysical-properties",
+    "crystals": [
+        {
+            "name": "amber", 
+            "properties": "Purifies body, mind, and spirit.  Balances electromagnetics of the body and allows even flow of energies.  Provides a positive, soothing energy.  Spiritualizes the intellect.",
+            "image": "c.amber.jpg"
+        },
+
+        {
+            "name": "amethyst",
+            "properties": "Sedative energy.  Facilitates spirituality and contentment.  Stone of stability, strength, and peace.  Excellent for meditation. Enhances psychic ability.",
+            "image": "c.amethyst.jpg"
+        },
+
+        {
+            "name": "aventurine",
+            "properties": "Independence, leadership, creativity.  Balances male/female energies.  Aligns mental, physical, emotional, and auric bodies.",
+            "image": "c.aventurine.jpg"
+        },
+
+        {
+            "name": "aquamarine",
+            "properties": "Courage, intellect, protection.  Assists spiritual awareness, actualization.",
+            "image": "c.aquamarine.jpg"
+        },
+
+        {
+            "name": "azurite",
+            "properties": "Awakens psychic ability, insight, intuition.  Third eye.  Excellent for clearing the mind in meditation.",
+            "image": "c.azurite.jpg"
+        },
+
+        {
+            "name": "amazonite",
+            "properties": "Balancing energy, harmony, universal love.",
+            "image": "c.amazonite.jpg"
+        },
+
+        {
+            "name": "calcite",
+            "properties": "Energy amplifier, teacher. Optical Calcite is excellent for clearing and cleansing.",
+            "image": "c.calcite.jpg"
+        },
+
+        {
+            "name": "celestite",
+            "properties": "Excellent stone for dream recall and astral travel.  Hope and harmony.  Communication.",
+            "image": "c.celestite.jpg"
+        },
+
+        {
+            "name": "chrysocolla",
+            "properties": "Strength, balance.  Promotes harmony and attunement to the earth.  Purifies one's environment.",
+            "image": "c.chrysocolla.jpg"
+        },
+
+        {
+            "name": "chrysoprase",
+            "properties": "Balances yin-yang energy.  Acceptance of self and others.",
+            "image": "c.chrysoprase.jpg"
+        },
+
+        {
+            "name": "citrine",
+            "properties": "Positive energy - stone needs no cleansing .  Dissipates negative energy.  Warmth, joy, optimism.",
+            "image": "c.citrine.jpg"
+        },
+
+        {
+            "name": "cobaltian calcite",
+            "properties": "Creativity, harmony, and dispels negativity.",
+            "image": "c.cobaltiancalcite.jpg"
+        },
+
+        {
+            "name": "copal",
+            "properties": "Excellent for strengthening the abilities of the mind, and altered states of consciousness.  Amplifies one's energy field."
+            
+        },
+
+        {
+            "name": "danburite",
+            "properties": "Powerful intellectual activator. Aids with communication and relationships with others. Helps remove toxins from the body.",
+            "image": "c.danburite.jpg"
+        },
+
+        {
+            "name": "emerald",
+            "properties": "Loyalty, sensitivity, harmony, tranquility.  Assists in memory retention and mental clarity.",
+            "image": "c.emerald.jpg"
+        },
+
+        {
+            "name": "epidote",
+            "properties": "Enhances perception and personal power. Excellent for attunement in all aspects of awareness, improvement, abundance, and healing.",
+            "image": "c.epidote.jpg"
+        },
+
+        {
+            "name": "fire agate",
+            "properties": "Spiritual flame, perfection. Protects and dispels fears. Progression, advancement, inspiration.",
+            "image": "c.fireagate.jpg"
+        },
+
+        {
+            "name": "fluorite",
+            "properties": "Stability, order, discernment, concentration. Helps one to understand and maintain ideals and the perfection of the universe.",
+            "image": "c.fluorite.jpg"
+        },
+
+        {
+            "name": "fuchsite",
+            "properties": "Aids in the assessment of personal issues, enhances knowledge and decision making.",
+            "image": "c.fuchsite.jpg"
+        },
+
+        {
+            "name": "garnet",
+            "properties": "Commitment, devotion, love, stability and order.  Even flow of energy.",
+            "image": "c.garnet.jpg"
+        },
+
+        {
+            "name": "hematite",
+            "properties": "Excellent for the mind.  Grounding.",
+            "image": "c.hematite.jpg"
+        },
+
+        {
+            "name": "herkimer diamond",
+            "properties": "Awareness, attunement, clairvoyance, telepathy. Good for information retention."
+    
+        },
+
+        {
+            "name": "howlite",
+            "properties": "Memory, knowledge, and progress. Encourages reasoning, observation, discernment, patience, and tact. Can eliminate pain, stress, and anger.",
+            "image": "c.howlite.jpg"
+        },
+
+        {
+            "name": "kunzite",
+            "properties": "Communication, love, peace.  Protects and dissolves negativity.  Excellent for meditation.",
+            "image":"c.kunzite.jpg"   
+        },
+
+        {
+            "name": "kyanite",
+            "properties": "Never needs cleaning or clearing, aligns all chakras.  Tranquility, communication, psychic awareness. Excellent for meditation and dream recall.",
+            "image": "c.kyanite.jpg"
+        },
+
+        {
+            "name": "labradorite",
+            "properties": "Represents the light of the universe, extra-terrestrial energy.  Intuition, subconscious.  Illumination. ",
+            "image": "c.labradorite.jpg"
+        },
+
+        {
+            "name": "lapis lazuli",
+            "properties": "Knowledge, wisdom, perfection, protection, creative expression.",
+            "image": "c.lapislazuli.jpg"
+        },
+
+        {
+            "name": "lepidolite",
+            "properties": "Honesty, stability, hope, acceptance. Assists in change and transition. Facilitates astral travel. "
+        },
+
+        {
+            "name": "malachite",
+            "properties": "Transformation, spiritual development. Clears the way to attain goals. Fidelity, loyalty, reasoning ability.",
+            "image": "c.malachite.jpg"
+        },
+
+        {
+            "name": "moldavite",
+            "properties": "Clarity, eternity. Extra-terrestrial, interdimensional access."
+        },
+
+        {
+            "name": "moonstone",
+            "properties": "Lunar, female energy.  Emotional, intuitive. Rhythms, cycles, destiny.",
+            "image": "c.moonstone.jpg"
+        },
+
+        {
+            "name": "obsidian",
+            "properties": "Dispels negativity. Grounding, healing, protective.  Helps one to clearly see one's flaws and the changes that are necessary."
+        },
+
+        {
+            "name": "onyx",
+            "properties": "Centering, self-control, intuitive guidance.  Assists in the grieving process.",
+            "image": "c.onyx.jpg"
+        },
+
+        {
+            "name": "opal",
+            "properties": "Creativity, inspiration, imagination.",
+            "image": "c.opal.jpg"
+
+        },
+
+        {
+            "name": "peridot",
+            "properties": "Healing, protective. Allows one to understand changes in one's life, regulates life cycles."
+        },
+
+        {
+            "name": "prehnite",
+            "properties": "Stone for dreaming and remembering. Facilitates contact with non-physical entities and extraterrestrials. Good for use in grid work. Inspiration and prophecy."
+        },
+
+        {
+            "name": "pyrite",
+            "properties": "Shields from negative energy, good stone of protection. Enhances intellect and memory. Symbol of the sun."
+        },
+
+        {
+            "name": "quartz crystal",
+            "properties": "Universal crystal, clarity of consciousness.",
+            "image": "c.quartz.jpg"
+        },
+
+        {
+            "name": "rhodochrosite",
+            "properties": "Love energy. Excellent stone for balance in all areas."
+        },
+
+        {
+            "name": "ruby",
+            "properties": "Loving, nurturing, spirituality ,wealth, protection.",
+            "image": "c.ruby.jpg"
+        },
+
+        {
+            "name": "rutilated quartz",
+            "properties": "Intensifies energy of the crystal. Stimulates brain. Inspiration, clairvoyance."
+        },
+
+        {
+            "name": "sapphire",
+            "properties": "Joy, peace, beauty, prosperity."
+        },
+
+        {
+            "name": "selenite",
+            "properties": "Clarity of consciousness, awareness, insight, good judgement. Aids in accessing past/future lives.",
+            "image": "c.selenite.jpg"
+        },
+
+        {
+            "name": "silver",
+            "properties": "Mirror to the soul. Eloquence. Connects physical and astral bodies. In jewelry, it provides a balanced setting that retains the qualities of the stone it holds. Lunar energy. Cleansing, balancing."
+        },
+
+        {
+            "name": "smoky quartz",
+            "properties": "Dissolves negativity, grounding, balancing. Excellent for meditation."
+        }
+
+    
+
+
+    ]
+
+}
+
+
