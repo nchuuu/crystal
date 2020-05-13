@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+<style>
+
+</style>
+
+    </head>
+
+
+
+    <body>
+        <div id="myData"></div>
+        <div id="crystalpic"></div>
+        
+        
+
+    <script>
+            fetch('crystal.json')
+            .then(function (response) {
+            console.log(response);
+                return response.json();
+            })
+            .then(function (data) {
+            console.log(data);
+                appendData(data.crystals);
+       
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+
+
+           
+            function appendData(data){
+
+                // Which one to display??
+
+                var urlParams = new URLSearchParams(window.location.search);
+                var which = urlParams.get('result');
+
+                var mainContainer = document.getElementById("myData");
+                for (var i = 0; i < data.length; i++) {
+                    if (i == which) {
+                var div = document.createElement("div");
+                div.id = i;
+
+                mainContainer.appendChild(div);
+                console.log(div.style);
+                div.style.fontSize = "30px";
+            div.style.textTransform = "uppercase";
+            div.style.textAlign = "center";
+            div.style.fontFamily = "Helvetica";
+           
+
+                div.style.height = "100vh";
+                div.style.backgroundImage = "url('" + data[i].image + "')";
+                div.style.backgroundSize = "100vw 100vh";
+                div.style.backgroundRepeat = "no-repeat";
+                div.style.backgroundPositionY = "top";
+               div.innerHTML =  "<b><h1>" + data[i].name + ':' + 
+                    '</h1></b><h3>' + data[i].properties; + 
+                    '</h3>' 
+                    //"<style> background-image: url('" + data[i].image + "') </style>";
+
+            }
+                
+           
+             }
+                }
+            
+
+          
+
+           // var pics = document.getElementById("crystalpic");
+            //for (var i = 0; i < data.length; i++) {
+              //      if (i == which) {
+               // var divImage = document.createElement("divImage");
+                //divImage.id = i
+                //divImage.style.alignContent = "center";
+                //divImage.innerHTML += '<img src="' + data.crystals[i]["image"] + '" style="max-width:100 px; display: inline; padding: 5px;" />';
+            //}   
+            //}
+
+
+            //for (var i = 0; i < data.crystals.length; i++) {
+
+            //pics.innerHTML += '<img src="' + data.crystals[i]["image"] + '" style="max-width:100 px; display: inline; padding: 5px;" />';
+            // }   
+              // if (i == which) {
+                //var div = document.createElement("div");
+              // }
+
+         
+                        
+            
+
+               
+        //trying to add images
+            //function showImage(json){
+              //  var img = document.createElement('img');
+                //img.src = arrItems[i].image;
+                
+
+            
+        
+         //THIS TEST WORKS !!!!!!!!!!!!!!!!!!!!!!!!!!
+                //var obj = {
+                //'placements': [
+                //{
+                //'image': 'c.amber.jpg'
+                // },
+               // {
+                //'image': 'c.amethyst.jpg'
+                //},
+                
+                //]
+                //}
+
+                //var pics = document.getElementById("crystalpic");
+              //for (var i = 0; i < obj.placements.length; i++) {
+                
+                //pics.innerHTML += '<img src="' + obj.placements[i]["image"] + '" style="max-width:100 px; display: inline; padding: 5px;" />';
+             //}
+         
+    </script>
+
+
+    </body>
+
+</html>
